@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Ear-EEG Sleep Monitoring 2017 (EESM17)",
-  "description": "The Ear-EEG Sleep Monitoring 2017 (EESM17) dataset comprises nightly polysomnographic recordings from 9 healthy participants, combining conventional EEG, EOG, and chin EMG with 14 ear-EEG electrodes. The dataset includes both wake-state recordings (subjects relaxing before sleep) and sleep-state recordings (overnight monitoring at participants' homes), with sleep scoring initiated at lights out. This resource enables investigation of ear-based EEG for sleep monitoring applications.",
-  "methods_description": "Partial polysomnography measurements were collected during nightly recordings at participants' homes. Data acquisition included conventional EEG, EOG, and chin EMG combined with 14 ear-EEG electrodes. Recordings consisted of two sessions per subject: a wake task (relaxation period before sleep) and a sleep task (overnight monitoring beginning at lights out). Equipment was mounted in the afternoon prior to recordings.",
+  "description": "The Ear-EEG Sleep Monitoring 2017 (EESM17) dataset contains overnight recordings from 9 healthy participants, made at the participants' homes. Recordings combine partial polysomnography (scalp EEG, EOG, chin EMG) with 14 ear-EEG electrodes. A pre-sleep wake recording and a night-time sleep recording are provided for each subject, with sleep scoring beginning at lights out.",
+  "methods_description": "Each participant completed two recordings at home. In the first, a 'wake' task, they relaxed in a chair reading or watching television. In the second, a 'sleep' task, they were recorded overnight from the time they went to bed. Recording equipment was mounted in the afternoon. Partial PSG (EEG, EOG, chin EMG) was combined with 14 ear-EEG electrodes, and the data are stored in EEGLAB .set format. Two ear-EEG channels, ERB1 and ELB1, were not used in the original study but are included in the dataset.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,6 +20,9 @@
       "term": "EEG"
     },
     {
+      "term": "ear-EEG"
+    },
+    {
       "term": "sleep monitoring"
     },
     {
@@ -28,25 +31,17 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D017286"
     },
     {
-      "term": "wearable electrodes"
+      "term": "sleep staging"
     },
     {
-      "term": "ear-EEG"
-    },
-    {
-      "term": "Electrooculography",
+      "term": "Sleep",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012890"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004348",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004348",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -59,6 +54,11 @@
       "identifier": "10.18112/openneuro.ds004348.v1.0.5",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004348",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -67,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "13.0 GB (132 files)"
+    "12.12 GB (132 files)"
   ],
   "formats": [
     ".csv",
