@@ -1,0 +1,96 @@
+{
+  "SourceGitCommit": "4cbb88acc2433d788f39fc1e8a98b9d61a963179",
+  "Derivation": "TaskName is the literal existing BIDS filename task identifier, not an inferred experiment description. All original tracked entries remain unchanged.",
+  "AddedSidecars": [
+    {
+      "path": "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.fdt",
+        "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.fdt",
+        "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.fdt",
+        "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.fdt",
+        "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.fdt",
+        "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.fdt",
+        "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.fdt",
+        "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.fdt",
+        "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    },
+    {
+      "path": "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.json",
+      "task_token": "wake",
+      "source_files": [
+        "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.fdt",
+        "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.set"
+      ],
+      "known_applicable_metadata": [],
+      "new_sha256": "8a3c6fca10c5e05dc022a495eed1147e6df2655d15e73a35aa5a62ca59c5ea39"
+    }
+  ]
+}
